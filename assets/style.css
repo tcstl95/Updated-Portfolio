@@ -1,0 +1,84 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+/* Header and Navigation's own CSS classes*/
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+header{
+    padding: 0px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+
+}
+/*Setting the background color*/
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+li{
+    display: inline-block;
+    color: black;
+
+}
+p{
+    font-size: initial;
+}
+
+img{
+    width: 10%;
+}
+/* Each image has its own CSS class in order for me to resize them to fit on page*/
+.Horiseon-Img{
+ width: 60%;
+}
+.Drake-Seal{
+    width: 40%;
+
+}
+.KU-Logo{
+    width: 70%;
+}
+.Practice-Img{
+    width: 30%;
+}
+h1{
+    text-align: center;
+}
+/* Each section of the portfolio has its own class so I can adjust their sizes on the page*/
+.About-Me{
+    padding: 50px;
+    height: 617px;
+    text-align: center;
+    border-style: groove;
+}
+.My-Work{
+    padding: 50px;
+    height: 512px;
+    text-align: center;
+    border-style: groove;
+}
+
+.Contact{
+    text-align: center;
+    border-style: groove;
+    
+}
+main{
+  display: inline-flex;
+
+}
+ul a {
+    color:black
+}
+/* This provides the responsive layout in order for this webpage to fit on a mobile device*/
+@media screen and (max-width: 600px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+}
